@@ -1,0 +1,16 @@
+Integrated Development Environment
+
+<script>
+	function doen(){
+		var x = document.getElementById("invoerveld").value;
+
+		console.log(x);
+		document.getElementById("uitvoerveld").innerHTML = "Hoi " + x;
+		document.getElementById("uitvoerveld").style.backgroundColor = 'red';
+
+	}
+
+</script>
+<input id="invoerveld">
+<input type=button value=klik onclick=doen()>
+<div id="uitvoerveld"></div>
